@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.newyulong.materialdesignstu.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_textinputlayout"
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:text="TextInputLayout" />
+
+    <TextView
+        android:id="@+id/tv_drawerlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DrawerLayout"
+        android:padding="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_textinputlayout" />
+
+    <TextView
+        android:id="@+id/tv_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToolBar"
+        android:padding="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_drawerlayout" />
+
+    <TextView
+        android:id="@+id/tv_snackbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snackbar"
+        android:padding="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_toolbar" />
+    <TextView
+        android:id="@+id/tv_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FloatingActionButton"
+        android:padding="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_snackbar" />
+    <TextView
+        android:id="@+id/tv_tablayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TabLayout"
+        android:padding="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fab" />
+    <TextView
+        android:id="@+id/tv_coordinatorlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CoordinatorLayout"
+        android:padding="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tablayout" />
+    <TextView
+        android:id="@+id/tv_appbarlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AppBarLayout"
+        android:padding="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_coordinatorlayout" />
+    <TextView
+        android:id="@+id/tv_collapsingtoolbarlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CollapsingToolbarLayout"
+        android:padding="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_appbarlayout" />
+    <TextView
+        android:id="@+id/tv_recyclerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView"
+        android:padding="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_collapsingtoolbarlayout" />
+    <TextView
+        android:id="@+id/tv_viewandappbarlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ViewPage联合AppbarLayout"
+        android:padding="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_recyclerview" />
+    <TextView
+        android:id="@+id/tv_picasso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="图片加载picasso"
+        android:padding="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_viewandappbarlayout" />
+    <TextView
+        android:id="@+id/tv_rxjava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RxJava"
+        android:padding="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_picasso" />
+    <TextView
+        android:id="@+id/tv_retrofit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retrofit"
+        android:padding="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rxjava" />
+
+</android.support.constraint.ConstraintLayout>

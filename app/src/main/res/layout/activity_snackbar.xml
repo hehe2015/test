@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:id="@+id/cl"
+    android:layout_height="300dp"
+    android:background="#eee">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:padding="10dp"
+        android:text="Snackbar"
+        android:layout_height="wrap_content" />
+
+</android.support.design.widget.CoordinatorLayout>
